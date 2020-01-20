@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 .wrapper{
-  background-color: grey;
   height: 80px;
 }
 .clearfix::after {
@@ -37,6 +36,15 @@
   padding: 20px;
   text-align: left;
 }
+.header-right li a {
+  color: grey;
+}
+.color-black {
+  color: black;
+}
+.color-grey {
+  color: grey;
+}
 
 .list-style li {
   list-style: none;
@@ -45,4 +53,16 @@
 }
 .list-style li a {
   text-decoration: none;
+}
+.fas {
+  font-size: 12px;
+}
+/* BOTTONE */
+.scarica_app {
+  color: white;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: violet;
+  border: 2px solid white;
 }
