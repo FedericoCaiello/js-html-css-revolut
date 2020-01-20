@@ -53,7 +53,7 @@
 }
 .list-style li {
   list-style: none;
-  padding: 10px;
+  padding: 15px 10px;
   display: inline-block;
 }
 .list-style li a {
@@ -68,8 +68,11 @@
   height: 40px;
   padding: 10px;
   border-radius: 20px;
-  background-color: violet;
+  background-color: magenta;
   border: 2px solid white;
+}
+button:hover {
+  filter: opacity(0.8);
 }
 /* TENDINE */
 .dropdown {
@@ -84,9 +87,14 @@ filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
   position: relative;
 }
 .dropdown li {
-  display: block;
+  display: inline-block;
 }
+/* da usare in js */
 .dropdown.active {
   display: flex;
   flex-direction: column;
+}
+.padding_width {
+  padding-right: 30px;
+  width: 250px;
 }

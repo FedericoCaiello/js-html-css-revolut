@@ -4,11 +4,11 @@ $(document).ready(
       function (){
         $(this).next('.dropdown').toggleClass('active');
 
-        $('.parent-dropdown > a').click(
-          function (){
-            $(this).next('.dropdown').toggleClass('active');
-          }
-        );
+        // $('.parent-dropdown > a').click(
+        //   function (){
+        //     $(this).next('.dropdown').toggleClass('active');
+        //   }
+        // );
 
       }
     );
