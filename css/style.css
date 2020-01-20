@@ -6,7 +6,6 @@
 .wrapper{
   background-color: grey;
   height: 100px;
-  margin: auto;
 }
 .clearfix::after {
   content: "";
@@ -15,6 +14,9 @@
 }
 .float-right {
   float: right;
+}
+.float-left {
+  float: left;
 }
 .header-left {
   font-size: 18px;
